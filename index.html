@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domesticated Dad - Coming Soon</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0a0a0a;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            text-align: center;
+            max-width: 700px;
+            width: 100%;
+        }
+
+        h1 {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 7rem;
+            letter-spacing: 8px;
+            margin-bottom: 0;
+            line-height: 1;
+            color: #ffffff;
+            font-weight: 400;
+        }
+
+        .coming-soon {
+            display: inline-block;
+            background-color: #ffffff;
+            color: #0a0a0a;
+            padding: 0.5rem 2rem;
+            margin: 2rem 0;
+            font-weight: 700;
+            font-size: 0.9rem;
+            letter-spacing: 3px;
+        }
+
+        .tagline {
+            font-size: 1.5rem;
+            color: #888888;
+            margin-bottom: 4rem;
+            font-weight: 400;
+            font-style: italic;
+        }
+
+        .description {
+            font-size: 1.1rem;
+            color: #cccccc;
+            line-height: 1.8;
+            margin-bottom: 3rem;
+            font-weight: 400;
+        }
+
+        .email-signup {
+            margin-top: 3rem;
+        }
+
+        .email-input {
+            display: flex;
+            gap: 1rem;
+            max-width: 500px;
+            margin: 0 auto;
+            justify-content: center;
+        }
+
+        input[type="email"] {
+            flex: 1;
+            padding: 1rem 1.5rem;
+            background-color: transparent;
+            border: 2px solid #333333;
+            color: #ffffff;
+            font-family: 'Inter', sans-serif;
+            font-size: 1rem;
+            transition: border-color 0.3s;
+        }
+
+        input[type="email"]:focus {
+            outline: none;
+            border-color: #ffffff;
+        }
+
+        input[type="email"]::placeholder {
+            color: #666666;
+        }
+
+        button {
+            padding: 1rem 2.5rem;
+            background-color: #ffffff;
+            border: none;
+            color: #0a0a0a;
+            font-family: 'Inter', sans-serif;
+            font-size: 1rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s;
+            letter-spacing: 1px;
+        }
+
+        button:hover {
+            background-color: #e0e0e0;
+        }
+
+        .footer-note {
+            margin-top: 4rem;
+            font-size: 0.85rem;
+            color: #666666;
+            font-style: italic;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 4rem;
+                letter-spacing: 4px;
+            }
+
+            .tagline {
+                font-size: 1.2rem;
+            }
+
+            .description {
+                font-size: 1rem;
+            }
+
+            .email-input {
+                flex-direction: column;
+            }
+
+            button {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>DOMESTICATED<br>DAD</h1>
+
+        <div class="coming-soon">
+            COMING SOON
+        </div>
+
+        <div class="tagline">Some assembly required.</div>
+
+        <div class="description">
+            Premium apparel for the modern dad who's figured out<br>
+            how to use the washer but still can't find the dryer sheets.
+        </div>
+
+        <div class="email-signup">
+            <div class="email-input">
+                <input type="email" placeholder="Enter your email">
+                <button>NOTIFY ME</button>
+            </div>
+        </div>
+
+        <div class="footer-note">
+            Launch expected sometime between "soon" and "eventually"
+        </div>
+    </div>
+</body>
+</html>
